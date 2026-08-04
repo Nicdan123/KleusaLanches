@@ -5,9 +5,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex min-h-screen">
       <MenuLado />
-      <main className="ml-60 flex-1 min-h-screen bg-slate-50">
+
+      <main className="ml-0 md:ml-60 flex-1 min-h-screen bg-slate-50">
         <Routes>
           <Route path="/" element={<PaginaInicial />} />
           {/* <Route path="/sobre" element={} /> */}
@@ -18,4 +19,3 @@ function App() {
 }
 
 export default App;
-// {/* <section className="flex ">{/* começo da pagina inicial */}</section> */}
