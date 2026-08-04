@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../src/assets/Logo.png";
 function MenuLado() {
   return (
     <div className="w-60 fixed h-screen bg-gradient-to-b from-gray-950 via-red-950 to-orange-900 grid grid-rows-[auto_1fr_auto] p-2 gap-2 text-center flex-shrink-0">
@@ -34,7 +34,7 @@ function MenuLado() {
       {/* Baixo */}
       <div>
         <div className=" p-2">
-          <img src="/src/assets/Logo.png" alt="Logo da Hamburgueria" />
+          <img src={Logo} alt="Logo da Hamburgueria" />
         </div>
       </div>
     </div>
