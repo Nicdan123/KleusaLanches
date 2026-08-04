@@ -1,6 +1,13 @@
 import React from "react";
 import { Star, MapPin, ChevronRight } from "lucide-react";
 
+// ===== IMPORTAÇÕES DAS IMAGENS =====
+import lanche from "../assets/Lanche.webp";
+import mega from "../assets/mega.webp";
+import cheddar from "../assets/Cheddar.webp";
+import smash from "../assets/smash.webp";
+import gigante from "../assets/Gigante Kleusa.png";
+
 function PaginaInicial() {
   return (
     <main
@@ -44,11 +51,11 @@ function PaginaInicial() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-200 h-200 rounded-full bg-white shadow-2xl flex items-center justify-center">
+            <div className="w-80 h-80 rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
               <img
-                src="../src/assets/Lanche.webp"
+                src={lanche}
                 alt="Hambúrguer"
-                className="w-200 h-200 rounded-full bg-white shadow-2xl flex items-center justify-center"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
@@ -73,17 +80,17 @@ function PaginaInicial() {
               {
                 nome: "Mega Burger",
                 preco: "R$ 32,90",
-                img: "../src/assets/mega.webp",
+                img: mega,
               },
               {
                 nome: "Cheddar Bacon",
                 preco: "R$ 35,90",
-                img: "../src/assets/Cheddar.webp",
+                img: cheddar,
               },
               {
                 nome: "Smash Burger",
                 preco: "R$ 28,90",
-                img: "../src/assets/smash.webp",
+                img: smash,
               },
             ].map((item) => (
               <div
@@ -171,7 +178,6 @@ function PaginaInicial() {
           <div>
             <div className="flex items-center gap-3 text-red-600">
               <MapPin size={35} />
-
               <h2 className="text-5xl font-black">Nossa Localização</h2>
             </div>
 
@@ -181,9 +187,9 @@ function PaginaInicial() {
             </p>
 
             <img
-              src="../src/assets/Gigante Kleusa.png"
+              src={gigante}
               alt="Lendaria Kleusa Lanches"
-              className="mt-10 w-450 scale-133"
+              className="mt-10 w-full max-w-md rounded-2xl"
             />
           </div>
 
@@ -205,7 +211,6 @@ function PaginaInicial() {
       <footer className="bg-orange-900 text-white py-10">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-black">Kleusa Lanches 🍔</h2>
-
           <p className="mt-3 text-zinc-400">Feito com muito sabor para você.</p>
         </div>
       </footer>
