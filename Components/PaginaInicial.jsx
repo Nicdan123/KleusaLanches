@@ -2,11 +2,11 @@ import React from "react";
 import { Star, MapPin, ChevronRight } from "lucide-react";
 
 // ===== IMPORTAÇÕES DAS IMAGENS =====
-import lanche from "../assets/Lanche.webp";
-import mega from "../assets/mega.webp";
-import cheddar from "../assets/Cheddar.webp";
-import smash from "../assets/smash.webp";
-import gigante from "../assets/Gigante Kleusa.png";
+import lanche from "../src/assets/Lanche.webp";
+import mega from "../src/assets/mega.webp";
+import cheddar from "../src/assets/Cheddar.webp";
+import smash from "../src/assets/smash.webp";
+import gigante from "../src/assets/Gigante Kleusa.png";
 
 function PaginaInicial() {
   return (
