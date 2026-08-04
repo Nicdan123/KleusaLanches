@@ -51,7 +51,7 @@ function PaginaInicial() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-80 h-80 rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
+            <div className="w-200 h-200 rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
               <img
                 src={lanche}
                 alt="Hambúrguer"
@@ -189,7 +189,7 @@ function PaginaInicial() {
             <img
               src={gigante}
               alt="Lendaria Kleusa Lanches"
-              className="mt-10 w-full max-w-md rounded-2xl"
+              className="mt-10 w-full max-w-md rounded-2xl scale-133"
             />
           </div>
 
