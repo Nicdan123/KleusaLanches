@@ -51,7 +51,7 @@ function PaginaInicial() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-200 h-200 rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
+            <div className="w-210 h-160 rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
               <img
                 src={lanche}
                 alt="Hambúrguer"
